@@ -3,13 +3,13 @@ import plotly.express as px
 import pycountry
 import warnings
 
-# OPTIONAL: Hide fragmentation warning (safe)
+# OPTIONAL: Hide fragmentation warning 
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
 # STEP 1: Load dataset
 df = pd.read_csv("time_series_covid19_confirmed_global.csv")
 
-# STEP 2: Group by country (optimized)
+# STEP 2: Group by country
 df = df.groupby("Country/Region", as_index=False).sum()
 
 # STEP 3: Defragment dataframe
