@@ -1,0 +1,6 @@
+country,model,mae,rmse,mape,forecast_file
+US,linear_regression,38869.489115705925,47269.49807009755,0.03974043266289729,outputs/batch/forecast_us.csv
+India,linear_regression,4457.659415229562,4973.819746326789,0.009997256932141771,outputs/batch/forecast_india.csv
+France,linear_regression,18037.861663997766,24217.412689357923,0.049078094572231556,outputs/batch/forecast_france.csv
+Germany,linear_regression,20713.01677172776,30676.955959851384,0.05966516738843833,outputs/batch/forecast_germany.csv
+Brazil,linear_regression,17176.47098452044,21660.060201120803,0.048145003810296794,outputs/batch/forecast_brazil.csv
